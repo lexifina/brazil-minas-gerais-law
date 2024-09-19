@@ -1,0 +1,3 @@
+# Declara de utilidade pública o Conselho Comunitário de Segurança Pública de Bueno Brandão - Consep de Bueno Brandão -, com sede no Município de Bueno Brandão.
+O GOVERNADOR DO ESTADO DE MINAS GERAIS,
+O Povo do Estado de Minas Gerais, por seus representantes, decretou e eu, em seu nome, promulgo a seguinte lei:
