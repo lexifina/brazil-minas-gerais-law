@@ -1,0 +1,3 @@
+# Altera a Lei nº 23.764, de 6 de janeiro de 2021, que institui a política estadual de valorização da vida, a ser implementada nos estabelecimentos de ensino do sistema estadual de educação, e a Lei nº 20.003, de 3 de janeiro de 2012, que dispõe sobre a afixação, nos estabelecimentos de ensino fundamental e médio, de lista contendo números de telefone de serviços de emergência e de utilidade pública.
+O VICE-GOVERNADOR, no exercício das funções de GOVERNADOR DO ESTADO DE MINAS GERAIS,
+O Povo do Estado de Minas Gerais, por seus representantes, decretou e eu, em seu nome, promulgo a seguinte lei:
