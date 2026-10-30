@@ -103,7 +103,7 @@ def act_of(t, num, ano):
     law_key = 'constituicao-1989' if t in ('CON', 'ADT') else slug
     label = {'CON': 'Constituição do Estado de Minas Gerais',
              'ADT': 'Ato das Disposições Constitucionais Transitórias da Constituição do Estado de Minas Gerais',
-             'LCP': f'Lei Complementar nº {num}, de {ano}'}.get(t, r.get('norma'))
+             'LCP': f'Lei Complementar nº {num}, de {ano}', 'LEI': f'Lei nº {num}, de {ano}'}.get(t, r.get('norma'))
     ementa = re.sub(r'\s+', ' ', (r.get('ementa') or '')).strip()
     laws = {law_key: {'label': 'Constituição do Estado de Minas Gerais' if t == 'ADT' else label, 'title': ementa.capitalize() if ementa else label, 'kind': 'law', 'enacted': enacted,
                       'published': published, 'url': f'https://www.almg.gov.br/legislacao-mineira/{t}/{num}/{ano}/',
@@ -122,10 +122,10 @@ def act_of(t, num, ano):
         alter += dates_in(json.dumps(a, ensure_ascii=False))
     alter = sorted(d for d in alter if first and d > first)
     if not alter and orig.strip():
-        units, field, from_, first_law, note = units_of(text_lines(orig)), 'texto', first, law_key, None
+        units, field, from_, first_law, note = units_of(text_lines(orig), adt=t != 'LEI'), 'texto', first, law_key, None
     else:
         src = cons or orig
-        units, field, from_, first_law = units_of(text_lines(src)), 'textoConsolidado' if cons else 'texto', \
+        units, field, from_, first_law = units_of(text_lines(src), adt=t != 'LEI'), 'textoConsolidado' if cons else 'texto', \
             (alter[-1] if alter else first), None
         note = (f'Text in force as consolidated by ALMG; {label} was altered on {len(set(alter))} date(s) the record '
                 f'cites, the latest {alter[-1]}.' if alter else 'Text in force as consolidated by ALMG.')
@@ -133,7 +133,7 @@ def act_of(t, num, ano):
         return None, {}, 'no text'
     v = {'from': from_, 'source_url': url, 'sha256': sha(b), 'units': units}
     v['note'] = (note + ' ' if note else '') + f'From the "{field}" field of the ALMG record.'
-    act = {'slug': slug, 'short': {'CON': 'CE-MG', 'ADT': 'ADCT-MG'}.get(t) or f'LC {num}/{ano}', 'title': label + (f' ({ementa.capitalize()})' if ementa and len(ementa) < 160 else ''),
+    act = {'slug': slug, 'short': {'CON': 'CE-MG', 'ADT': 'ADCT-MG', 'LEI': f'Lei {num}/{ano}'}.get(t) or f'LC {num}/{ano}', 'title': label + (f' ({ementa.capitalize()})' if ementa and len(ementa) < 160 else ''),
            'url': f'https://www.almg.gov.br/legislacao-mineira/{t}/{num}/{ano}/', 'first_law': first_law,
            'earlier_laws': [] if first_law else [law_key], 'versions': [v]}
     if t in ('CON', 'ADT'):

@@ -51,7 +51,7 @@ HEAD = re.compile(r'^(?:(?:T[ÍI]TULO|CAP[ÍI]TULO|SE[ÇC][ÃA]O|SUBSE[ÇC][ÃA]
 ADT = re.compile(r'DISPOSI[ÇC][ÕO]ES\s+(CONSTITUCIONAIS\s+)?TRANSIT[ÓO]RIAS', re.I)
 
 
-def units_of(lines, title_label='Título'):
+def units_of(lines, title_label='Título', adt=True):
     """One unit per Artigo (keys art-0001, art-0001-a; after an "Ato das Disposições ... Transitórias" heading,
     adt-0001). Headings stand above the first article under them ("## "). Lines before the first article form
     000-titulo. An article number lower than the one before (a quoted provision) does not start a new unit."""
@@ -81,7 +81,7 @@ def units_of(lines, title_label='Título'):
                 pending, last = [], (prefix, num, suf)
                 continue
         if heading:
-            if ADT.search(l):
+            if adt and ADT.search(l):
                 prefix, last = 'adt', None
             pending.append(l)
             continue
