@@ -601,7 +601,7 @@ def tables(c: dict, log: list[dict]) -> dict[str, str]:
                                         'publisher': co['publisher']['name']}, ensure_ascii=False, indent=1) + '\n'
     out['data/versions.json'] = json.dumps({'country': c['country']['code'], 'acts': [{
         'slug': a['slug'], 'short': a['short'], 'title': a['title'], 'url': a.get('url'),
-        'versions': [{'from': v['from'], 'units': len(v['units']), 'source_url': public_source(v.get('source_url')),
+        'versions': [{'from': v['from'], 'units': len(v['units']), 'source_url': v.get('source_url'),
                       'sha256': v.get('sha256')} for v in a['versions']]} for a in c['acts']]},
         ensure_ascii=False, indent=1) + '\n'
     buf = io.StringIO()
@@ -652,14 +652,6 @@ _WORKFILE = r'\bcorpus\.d/[\w.-]+|(?<!\w)[\w-]*\.PUBLISH\b|\bgitla[w]-[\w-]+'
 CODE_REF = re.compile(f'{_SCRIPT}|{_ATTR}|{_WORKFILE}')
 _DOMAIN_PY = re.compile(r'\.(?:gov|gob|com|org|edu|net|mil|coop)\.py$')  # Paraguay's own domains end in .py
 _CUT = '\x00'
-
-
-def public_source(url: str | None) -> str | None:
-    """A version's source as published: a crawl-archive record address (a WARC file plus offset, with the page's own
-    address after `url=`) is shown as the official page it captured. The version's sha256 still pins the exact bytes."""
-    if url and 'commoncrawl.org/' in url and 'url=' in url:
-        return url.split('url=', 1)[1]
-    return url
 
 
 def _code_refs(s: str, keep: frozenset[str] = frozenset()) -> list[str]:
