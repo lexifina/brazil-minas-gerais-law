@@ -1,45 +1,48 @@
 # Minas Gerais: law history in git
 
-The law of the State of Minas Gerais (Estado de Minas Gerais) (Brazil) as a git history: one file per Artigo, one paragraph per line, so `git blame`, `git log` and `git diff` work line by line. The text is Portuguese, the only official language.
-
-It follows the shared design of [lexifina/global-law](https://github.com/lexifina/global-law).
+The law of the State of Minas Gerais, Brazil, in Portuguese: one file per article and one paragraph per line. This record follows the shared design of lexifina/global-law.
 
 ## What this repository holds
 
 | Folder | Act | Versions |
 | --- | --- | ---: |
-| `constituicao/` | Constituição do Estado de Minas Gerais (21 September 1989), text in force | 1 |
-| `adt-1989/` | Ato das Disposições Constitucionais Transitórias (1989), text in force | 1 |
-| `lcp-<year>-<number>/` | the Leis Complementares, except those ALMG records as totally revoked, added part by part | 1 each |
+| `constituicao/` | State Constitution | 1 |
+| `adt-1989/` | Constitutional transitional provisions | 1 |
+| `lcp-2019-0149/` | LC 149/2019 | 2 |
+| `lcp-2021-0160/` | LC 160/2021 | 2 |
+| `lcp-2021-0165/` | LC 165/2021 | 2 |
+| `lcp-2022-0167/` | LC 167/2022 | 2 |
+| `lcp-2023-0171/` | LC 171/2023 | 4 |
+| `lcp-2023-0172/` | LC 172/2023 | 2 |
+| `lcp-2025-0180/` | LC 180/2025 | 2 |
+| Other `lcp-<year>-<number>/` folders | Other complementary laws retained in the record | 1 each |
 
-An act ALMG shows no alteration for is given **as enacted**, credited to the act itself. An altered act is given **only as its text in force**, credited to ALMG as the oldest version available: the wordings in between are not reconstructed yet, so no earlier version is shown rather than a wrong one. Ordinary Leis, decrees and the Emendas à Constituição as acts are not included yet.
+The record contains 175 acts and 184 versions. LC 171/2023 also includes the wordings effective on 2023-12-28 and 2024-06-15, established by LC 172/2023 and LC 175/2024. Textual annexes are retained.
+
+For other acts, an unaltered ALMG record is given as enacted; an altered record generally begins with its oldest available consolidated text. Ordinary laws, decrees and constitutional amendments as separate acts are not included.
 
 ## Source
 
-[ALMG, Legislação Mineira (Dados Abertos)](https://dadosabertos.almg.gov.br), published by the Assembleia Legislativa do Estado de Minas Gerais (ALMG). Each version names the page it was taken from and that page's sha256, in `data/versions.json`.
+ALMG, Legislação Mineira (Dados Abertos), published by the Assembleia Legislativa do Estado de Minas Gerais. Each version identifies its official source URL and the SHA-256 of that response in data/versions.json.
 
 ## Dates
 
-An unaltered act is dated by its publication in the Minas Gerais Diário do Executivo (Minas Gerais laws almost always take effect on publication). An altered act's text in force is dated by the latest date among the alterations ALMG cites for it: its notes in parentheses ("redação dada pelo ...", "acrescentado pelo ..."), the altering acts it links and the constitutional actions it lists. Commits are at noon in Belo Horizonte.
+The added original texts use their official publication dates and their express publication-day commencement clauses. The two intermediate texts use the amending laws’ publication dates and express commencement clauses. Correction commits give these grounds in In-force-basis trailers. Commit authors are dated at noon in Belo Horizonte; the original published history remains intact.
 
-## How it is built
+For LC 149/2019, LC 165/2021 and LC 167/2022, ALMG identifies judicial publication or finality dates; this record does not establish the full chronology of injunctions, modulation or interpretation effects.
 
-Lexifina reads the sources listed here and records each act's dated versions, and the laws that made each change, in one corpus file. `tools/build.py` writes this repository from that file, and the same corpus always gives the same commit hashes; `REPRODUCE.md` gives the details and the checks. A model (Claude) wrote Lexifina's code; it wrote no legal text, and no model runs when the history is built.
+## Text and verification
 
-Each record becomes one file per Art.; headings of the Títulos, Capítulos and Seções stand above the first article under them; `000-titulo.md` holds the title, the ementa and the preamble. ALMG's editorial notes (whole paragraphs in parentheses, such as "(Vide Lei nº ...)"), the text it strikes through and its "Data da última atualização" line are left out; "(Vetado)" is kept. Tables are one line per row, with cells separated by ` | `.
+Article headings, paragraphs and textual tables follow the official text. ALMG editorial annotations, struck-through historical passages in consolidated text and update timestamps are not treated as enacted wording. Original textual annexes and punctuation-only paragraphs are retained. No OCR is used for these history additions.
 
-## How it is checked
+The seven original word streams and punctuation are compared with the complete official original text; intermediate changes are compared with the official amendment quotes, while all unaffected provisions remain unchanged. Readers reconstruct versions at their recorded dates, with labelled corrections applied. REPRODUCE.md records the structural and reproducibility checks.
 
-Every version is read back from git on the day it took effect (`tools/check_repo.py`) and must match the corpus; an independent letters-and-digits comparison of every version against the source page must show no difference. Results are in `REPRODUCE.md`.
+## Attribution and limits
 
-## What "author" means
-
-The author of each commit is the law that made the text, or, for a consolidated text, the publisher, with an e-mail address that cannot exist; the committer is always Lexifina.
-
-## Limits
-
-Not a complete history: an altered act starts at its text in force. A Lei Complementar ALMG does not record as totally revoked may still have been revoked in part or implicitly. The text is not the official version: only the Diário Oficial (Minas Gerais) is authoritative. Text after the last article (place, date, signatures) stays in the last article's file.
+Authors identify the law responsible for the wording, or ALMG for a consolidated snapshot. Lexifina is the committer. This is a partial history, not a complete account of every intervening legal effect. Mixed commencement, later promulgation after rejected vetoes and some backdated source dates remain outside these history additions. Only the Diário Oficial is authoritative.
 
 ## Licence
 
-See [LICENSE](LICENSE): Brazilian law texts are not protected by copyright (Lei 9.610/1998, art. 8, IV). Fonte: ALMG, Legislação Mineira (Dados Abertos), Assembleia Legislativa do Estado de Minas Gerais (ALMG).
+Brazilian law texts are not protected by copyright under Lei 9.610/1998, article 8 IV; see LICENSE. Fonte: ALMG, Legislação Mineira (Dados Abertos), Assembleia Legislativa do Estado de Minas Gerais.
+
+Este registro reúne textos oficiais de Minas Gerais e versões históricas identificadas. O Diário Oficial permanece a fonte autoritativa; a cronologia de todos os efeitos jurídicos não está integralmente representada.
