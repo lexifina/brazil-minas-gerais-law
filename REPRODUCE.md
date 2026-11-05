@@ -11,6 +11,8 @@ This file is written by the build on 2026-11-05, the day the source data was ret
 | Assembleia Legislativa do Estado de Minas Gerais (ALMG), Dados Abertos: the record of each norma (texto and textoConsolidado) | <https://dadosabertos.almg.gov.br> | 2026-10-30 | Texts: Assembleia Legislativa do Estado de Minas Gerais (ALMG), Legislação Mineira, dadosabertos.almg.gov.br. Lei 9.610/1998 art. 8 IV: the texts of laws and other official acts are not protected by copyright. Non-official text: only the Diário Oficial is authoritative. |
 | Assembleia Legislativa do Estado de Minas Gerais (ALMG), Dados Abertos: the record of each norma (texto and textoConsolidado) | <https://dadosabertos.almg.gov.br> | 2026-10-30 | Texts: Assembleia Legislativa do Estado de Minas Gerais (ALMG), Legislação Mineira, dadosabertos.almg.gov.br. Lei 9.610/1998 art. 8 IV: the texts of laws and other official acts are not protected by copyright. Non-official text: only the Diário Oficial is authoritative. |
 | Assembleia Legislativa do Estado de Minas Gerais (ALMG), Dados Abertos: the record of each norma (texto and textoConsolidado) | <https://dadosabertos.almg.gov.br> | 2026-10-30 | Texts: Assembleia Legislativa do Estado de Minas Gerais (ALMG), Legislação Mineira, dadosabertos.almg.gov.br. Lei 9.610/1998 art. 8 IV: the texts of laws and other official acts are not protected by copyright. Non-official text: only the Diário Oficial is authoritative. |
+| ALMG official original text and publication record | <https://dadosabertos.almg.gov.br> | 2026-11-05 | Texts: Assembleia Legislativa do Estado de Minas Gerais (ALMG), Legislação Mineira, dadosabertos.almg.gov.br. Lei 9.610/1998 art. 8 IV: the texts of laws and other official acts are not protected by copyright. Non-official text: only the Diário Oficial is authoritative. |
+| ALMG official original text and publication record | <https://dadosabertos.almg.gov.br> | 2026-11-05 | Texts: Assembleia Legislativa do Estado de Minas Gerais (ALMG), Legislação Mineira, dadosabertos.almg.gov.br. Lei 9.610/1998 art. 8 IV: the texts of laws and other official acts are not protected by copyright. Non-official text: only the Diário Oficial is authoritative. |
 
 Every word of law in this repository comes from these sources. Lexifina reads them and records each act's dated versions, and the laws that made each change, in one corpus file. This repository is built from that file.
 
@@ -152,7 +154,7 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | `lcp-2018-0146` | Lei Complementar nº 146, de 2018 (Altera a lei complementar nº 59, de 18 de janeiro de 2001, que contém a organização e a divisão judiciárias do estado, e dá outra providência.) | 1 | 2018-01-10 to 2018-01-10 |
 | `lcp-2018-0147` | Lei Complementar nº 147, de 2018 (Altera a lei complementar nº 34, de 12 de setembro de 1994, que dispõe sobre a organização do ministério público do estado e dá outras providências.) | 1 | 2018-12-15 to 2018-12-15 |
 | `lcp-2019-0148` | Lei Complementar nº 148, de 2019 | 1 | 2019-10-05 to 2019-10-05 |
-| `lcp-2019-0149` | Lei Complementar nº 149, de 2019 | 1 | 2020-09-23 to 2020-09-23 |
+| `lcp-2019-0149` | Lei Complementar nº 149, de 2019 | 2 | 2019-11-09 to 2020-09-23 |
 | `lcp-2019-0150` | Lei Complementar nº 150, de 2019 (Altera o art. 27 da lei complementar nº 102, de 17 de janeiro de 2008, que dispõe sobre a organização do tribunal de contas e dá outras providências.) | 1 | 2019-11-15 to 2019-11-15 |
 | `lcp-2019-0151` | Lei Complementar nº 151, de 2019 | 1 | 2019-12-18 to 2019-12-18 |
 | `lcp-2019-0152` | Lei Complementar nº 152, de 2019 | 1 | 2019-12-31 to 2019-12-31 |
@@ -163,19 +165,19 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | `lcp-2021-0157` | Lei Complementar nº 157, de 2021 (Altera a lei complementar nº 59, de 18 de janeiro de 2001, que contém a organização e a divisão judiciárias do estado de minas gerais.) | 1 | 2021-01-07 to 2021-01-07 |
 | `lcp-2021-0158` | Lei Complementar nº 158, de 2021 | 1 | 2021-07-31 to 2021-07-31 |
 | `lcp-2021-0159` | Lei Complementar nº 159, de 2021 (Dispõe sobre a instituição e a gestão de aglomerações urbanas e microrregiões no estado.) | 1 | 2021-07-31 to 2021-07-31 |
-| `lcp-2021-0160` | Lei Complementar nº 160, de 2021 (Dispõe sobre o pagamento de diárias no âmbito do estado) | 1 | 2021-09-18 to 2021-09-18 |
+| `lcp-2021-0160` | Lei Complementar nº 160, de 2021 (Dispõe sobre o pagamento de diárias no âmbito do estado) | 2 | 2021-08-05 to 2021-09-18 |
 | `lcp-2021-0161` | Lei Complementar nº 161, de 2021 | 1 | 2021-08-05 to 2021-08-05 |
 | `lcp-2021-0162` | Lei Complementar nº 162, de 2021 | 1 | 2021-08-05 to 2021-08-05 |
 | `lcp-2021-0163` | Lei Complementar nº 163, de 2021 (Altera a lei complementar nº 34, de 12 de setembro de 1994, que dispõe sobre a organização do ministério público do estado, e dá outras providências.) | 1 | 2021-08-05 to 2021-08-05 |
 | `lcp-2021-0164` | Lei Complementar nº 164, de 2021 | 1 | 2021-08-05 to 2021-08-05 |
-| `lcp-2021-0165` | Lei Complementar nº 165, de 2021 (Estabelece regras gerais para a concessão de licença-paternidade aos servidores públicos e aos militares do estado.) | 1 | 2025-05-09 to 2025-05-09 |
+| `lcp-2021-0165` | Lei Complementar nº 165, de 2021 (Estabelece regras gerais para a concessão de licença-paternidade aos servidores públicos e aos militares do estado.) | 2 | 2021-09-18 to 2025-05-09 |
 | `lcp-2022-0166` | Lei Complementar nº 166, de 2022 | 1 | 2022-07-01 to 2022-07-01 |
-| `lcp-2022-0167` | Lei Complementar nº 167, de 2022 (Institui a procuradoria jurídica do tribunal de contas do estado e dá outras providências.) | 1 | 2025-10-15 to 2025-10-15 |
+| `lcp-2022-0167` | Lei Complementar nº 167, de 2022 (Institui a procuradoria jurídica do tribunal de contas do estado e dá outras providências.) | 2 | 2022-07-01 to 2025-10-15 |
 | `lcp-2022-0168` | Lei Complementar nº 168, de 2022 (Altera a lei nº 5.301, de 16 de outubro de 1969, que contém o estatuto dos militares do estado de minas gerais, e dá outras providências.) | 1 | 2022-07-20 to 2022-07-20 |
 | `lcp-2022-0169` | Lei Complementar nº 169, de 2022 | 1 | 2022-12-30 to 2022-12-30 |
 | `lcp-2023-0170` | Lei Complementar nº 170, de 2023 (Altera a lei complementar nº 34, de 12 de setembro de 1994, que dispõe sobre a organização do ministério público do estado, e dá outras providências.) | 1 | 2023-04-25 to 2023-04-25 |
-| `lcp-2023-0171` | Lei Complementar nº 171, de 2023 | 1 | 2025-10-21 to 2025-10-21 |
-| `lcp-2023-0172` | Lei Complementar nº 172, de 2023 | 1 | 2025-10-21 to 2025-10-21 |
+| `lcp-2023-0171` | Lei Complementar nº 171, de 2023 | 4 | 2023-05-10 to 2025-10-21 |
+| `lcp-2023-0172` | Lei Complementar nº 172, de 2023 | 2 | 2023-12-28 to 2025-10-21 |
 | `lcp-2023-0173` | Lei Complementar nº 173, de 2023 | 1 | 2023-12-30 to 2023-12-30 |
 | `lcp-2024-0174` | Lei Complementar nº 174, de 2024 (Altera a lei complementar nº 59, de 18 de janeiro de 2001, que contém a organização e divisão judiciárias do estado de minas gerais, e dá outras providências.) | 1 | 2024-06-08 to 2024-06-08 |
 | `lcp-2024-0175` | Lei Complementar nº 175, de 2024 | 1 | 2024-06-15 to 2024-06-15 |
@@ -183,7 +185,7 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | `lcp-2024-0177` | Lei Complementar nº 177, de 2024 (Acrescenta artigo à lei complementar nº 59, de 18 de janeiro de 2001, que contém a organização e a divisão judiciárias do estado de minas gerais.) | 1 | 2024-07-18 to 2024-07-18 |
 | `lcp-2024-0178` | Lei Complementar nº 178, de 2024 (Institui o plano diretor de desenvolvimento integrado da região metropolitana do vale do aço.) | 1 | 2024-12-20 to 2024-12-20 |
 | `lcp-2024-0179` | Lei Complementar nº 179, de 2024 (Acrescenta dispositivos à lei nº 869, de 5 de julho de 1952, que dispõe sobre o estatuto dos funcionários públicos civis do estado de minas gerais.) | 1 | 2024-12-28 to 2024-12-28 |
-| `lcp-2025-0180` | Lei Complementar nº 180, de 2025 (Institui o regime de previdência complementar para parlamentares da assembleia legislativa do estado de minas gerais.) | 1 | 2025-10-24 to 2025-10-24 |
+| `lcp-2025-0180` | Lei Complementar nº 180, de 2025 (Institui o regime de previdência complementar para parlamentares da assembleia legislativa do estado de minas gerais.) | 2 | 2025-01-15 to 2025-10-24 |
 | `lcp-2025-0181` | Lei Complementar nº 181, de 2025 | 1 | 2025-05-27 to 2025-05-27 |
 | `lcp-2025-0182` | Lei Complementar nº 182, de 2025 (Altera a lei complementar nº 34, de 12 de setembro de 1994, que dispõe sobre a organização do ministério público do estado e dá outras providências.) | 1 | 2025-05-31 to 2025-05-31 |
 | `lcp-2025-0183` | Lei Complementar nº 183, de 2025 | 1 | 2025-06-18 to 2025-06-18 |
@@ -194,7 +196,7 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | `lcp-2026-0188` | Lei Complementar nº 188, de 2026 (Dispõe sobre o quadro de pessoal da advocacia-geral do estado de minas gerais e dá outras providências.) | 1 | 2026-07-03 to 2026-07-03 |
 | `lcp-2026-0189` | Lei Complementar nº 189, de 2026 | 1 | 2026-08-05 to 2026-08-05 |
 
-The build made 175 commits:
+The build made 189 commits:
 
 | Commits | Kind |
 | ---: | --- |
@@ -218,13 +220,13 @@ When a law gives no date of its own, the default rule applies: Decreto-Lei 4.657
 
 `tools/build.py` turns the corpus into this history in one pass: one commit per law, on the day it took effect. The same corpus always gives the same commit hashes. `tools/check_repo.py` reads every version back from git and compares it with the corpus. `tools/on.py` shows the law as it stood on any date. The corpus format is described in `tools/SCHEMA.md`.
 
-- Corpus: sha256 `c1c7ef7465ea54a213d1a2481f43e07b40c1392184c867320ac46dbdfef680f9` (4164003 bytes).
+- Corpus: sha256 `2981130009a82591d3ecaa1e74b193ff99be99103dc24e9f9270309acfe0caf7` (4283782 bytes).
 - Builder blob hashes (`git hash-object`): `build.py` `35388bee5aa05369f7da68f5a8fa015ea8d442b8`, `check.py` `5d719354ea4c62d240c93d2cae446307d81d9e81`, `on.py` `aff48cf1b68d50c7ba8f399ca32261871c301824`.
 - Python 3.14.4; git version 2.53.0.
 
 ## Checks
 
-175 versions of 175 acts read back from git on the day each took effect and on the day before: 0 mismatches. Trailers: 0 commits whose trailers git cannot parse. Health: 0 merge commits on main, 0 commit dates that go backwards, 0 commits dated after the build.
+Not yet run for this build.
 
 No second build of this corpus has been compared yet.
 
@@ -250,6 +252,13 @@ No second build of this corpus has been compared yet.
 - ALMG's editorial notes (whole paragraphs in parentheses, such as "(Inciso com redação dada pelo ...)" or "(Vide Lei nº ...)"), the text it strikes through and its "Data da última atualização" line are left out; "(Vetado)" is kept as text.
 - One file per Art. (articles of an Ato das Disposições Transitórias as adt-*); headings of the Títulos, Capítulos and Seções stand above the first article under them; "000-titulo" holds the title, the ementa and the preamble. Text after the last article (place, date, signatures) stays with the last article.
 - Acts whose record lists a total revocation ("REVOGAÇÃO TOTAL") are left out.
+- History backfill: the official original texto field is added on the publication day specified by the act’s own commencement clause. Every previously recorded version is retained unchanged. Intermediate wordings are included only when independently established by the official source.
+- Pure punctuation paragraphs and textual annexes in original text are retained. No OCR or model-generated law text is used.
+- Existing words and dates are retained.
+- History backfill: the official original texto field is added on the publication day specified by the act’s own commencement clause. Every previously recorded version is retained unchanged. Intermediate wordings are included only when independently established by the official source.
+- Pure punctuation paragraphs and textual annexes in original text are retained. No OCR or model-generated law text is used.
+- LC 171/2023 intermediate wordings on 2023-12-28 and 2024-06-15 are reconstructed from official LC 172/2023 and LC 175/2024 quotes. Replaying LC 186/2025 then matches every unchanged published provision word for word and punctuation for punctuation. Three article suffixes differ only in typesetting spaces; published text is retained unchanged.
+- Existing words and dates are retained.
 
 ## What AI did and did not do
 
@@ -265,3 +274,5 @@ Model use at data-build time:
 - Claude Code (claude-opus-5-5) wrote Lexifina's code and chose the sources. No model output is used as legal text or dates: every word comes from the ALMG records.
 - Claude Code (claude-opus-5-5) wrote Lexifina's code and chose the sources. No model output is used as legal text or dates: every word comes from the ALMG records.
 - Claude Code (claude-opus-5-5) wrote Lexifina's code and chose the sources. No model output is used as legal text or dates: every word comes from the ALMG records.
+- GPT-6 wrote parsing and validation code and selected official records; all legal words and dates come from ALMG.
+- GPT-6 wrote parsing and validation code and selected official records; all legal words and dates come from ALMG.

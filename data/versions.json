@@ -1884,6 +1884,12 @@
    "url": "https://www.almg.gov.br/legislacao-mineira/LCP/149/2019/",
    "versions": [
     {
+     "from": "2019-11-09",
+     "units": 9,
+     "source_url": "https://dadosabertos.almg.gov.br/api/v2/legislacao/mineira/LCP/149/2019?formato=json",
+     "sha256": "1c4a66b58e84f4b755a64ce3335117ed51856f95b24e736b70282a0710c23260"
+    },
+    {
      "from": "2020-09-23",
      "units": 9,
      "source_url": "https://dadosabertos.almg.gov.br/api/v2/legislacao/mineira/LCP/149/2019?formato=json",
@@ -2038,6 +2044,12 @@
    "url": "https://www.almg.gov.br/legislacao-mineira/LCP/160/2021/",
    "versions": [
     {
+     "from": "2021-08-05",
+     "units": 4,
+     "source_url": "https://dadosabertos.almg.gov.br/api/v2/legislacao/mineira/LCP/160/2021?formato=json",
+     "sha256": "4d60a9416897267eb47aefb8c863ebf62e248d5bc22509d8c6e3db4728a7e8ec"
+    },
+    {
      "from": "2021-09-18",
      "units": 4,
      "source_url": "https://dadosabertos.almg.gov.br/api/v2/legislacao/mineira/LCP/160/2021?formato=json",
@@ -2108,6 +2120,12 @@
    "url": "https://www.almg.gov.br/legislacao-mineira/LCP/165/2021/",
    "versions": [
     {
+     "from": "2021-09-18",
+     "units": 7,
+     "source_url": "https://dadosabertos.almg.gov.br/api/v2/legislacao/mineira/LCP/165/2021?formato=json",
+     "sha256": "7783951a4f404a28855fbb80eb30613eb9ec4e36f232b0c45a581936e858b84c"
+    },
+    {
      "from": "2025-05-09",
      "units": 7,
      "source_url": "https://dadosabertos.almg.gov.br/api/v2/legislacao/mineira/LCP/165/2021?formato=json",
@@ -2135,6 +2153,12 @@
    "title": "Lei Complementar nº 167, de 2022 (Institui a procuradoria jurídica do tribunal de contas do estado e dá outras providências.)",
    "url": "https://www.almg.gov.br/legislacao-mineira/LCP/167/2022/",
    "versions": [
+    {
+     "from": "2022-07-01",
+     "units": 17,
+     "source_url": "https://dadosabertos.almg.gov.br/api/v2/legislacao/mineira/LCP/167/2022?formato=json",
+     "sha256": "2e7ba6ff6d135c60722d80a75158029a2b06901fae5595c58cfe92dbf10df9c5"
+    },
     {
      "from": "2025-10-15",
      "units": 16,
@@ -2192,6 +2216,24 @@
    "url": "https://www.almg.gov.br/legislacao-mineira/LCP/171/2023/",
    "versions": [
     {
+     "from": "2023-05-10",
+     "units": 8,
+     "source_url": "https://dadosabertos.almg.gov.br/api/v2/legislacao/mineira/LCP/171/2023?formato=json",
+     "sha256": "e54a7ac89df3f5be3c17b625fb00df2835b41d30d5e94c579aec000ab046246d"
+    },
+    {
+     "from": "2023-12-28",
+     "units": 8,
+     "source_url": "https://dadosabertos.almg.gov.br/api/v2/legislacao/mineira/LCP/172/2023?formato=json",
+     "sha256": "3462d21a76614017d793527f901ac51e990cc69b1d1e75e041e99bc33a6d12cd"
+    },
+    {
+     "from": "2024-06-15",
+     "units": 9,
+     "source_url": "https://dadosabertos.almg.gov.br/api/v2/legislacao/mineira/LCP/175/2024?formato=json",
+     "sha256": "4648617fe990e95ecad0d774ed4422833340f469a6b3da3d81fda21977040449"
+    },
+    {
      "from": "2025-10-21",
      "units": 11,
      "source_url": "https://dadosabertos.almg.gov.br/api/v2/legislacao/mineira/LCP/171/2023?formato=json",
@@ -2205,6 +2247,12 @@
    "title": "Lei Complementar nº 172, de 2023",
    "url": "https://www.almg.gov.br/legislacao-mineira/LCP/172/2023/",
    "versions": [
+    {
+     "from": "2023-12-28",
+     "units": 4,
+     "source_url": "https://dadosabertos.almg.gov.br/api/v2/legislacao/mineira/LCP/172/2023?formato=json",
+     "sha256": "3462d21a76614017d793527f901ac51e990cc69b1d1e75e041e99bc33a6d12cd"
+    },
     {
      "from": "2025-10-21",
      "units": 3,
@@ -2317,6 +2365,12 @@
    "title": "Lei Complementar nº 180, de 2025 (Institui o regime de previdência complementar para parlamentares da assembleia legislativa do estado de minas gerais.)",
    "url": "https://www.almg.gov.br/legislacao-mineira/LCP/180/2025/",
    "versions": [
+    {
+     "from": "2025-01-15",
+     "units": 16,
+     "source_url": "https://dadosabertos.almg.gov.br/api/v2/legislacao/mineira/LCP/180/2025?formato=json",
+     "sha256": "1ba759b9742379804f89eab20d34be42d778c8bb925f353fd060a0de61d75c9e"
+    },
     {
      "from": "2025-10-24",
      "units": 16,

@@ -1,6 +1,6 @@
 # Lei Complementar nº 180, de 2025 (Institui o regime de previdência complementar para parlamentares da assembleia legislativa do estado de minas gerais.)
 
-LC 180/2025 · 1 versions, from 2025-10-24 (latest in force: 2025-10-24) · <https://www.almg.gov.br/legislacao-mineira/LCP/180/2025/>
+LC 180/2025 · 2 versions, from 2025-01-15 (latest in force: 2025-10-24) · <https://www.almg.gov.br/legislacao-mineira/LCP/180/2025/>
 
 | Provision | File | Changes | Last changed |
 | --- | --- | ---: | --- |

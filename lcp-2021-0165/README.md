@@ -1,6 +1,6 @@
 # Lei Complementar nº 165, de 2021 (Estabelece regras gerais para a concessão de licença-paternidade aos servidores públicos e aos militares do estado.)
 
-LC 165/2021 · 1 versions, from 2025-05-09 (latest in force: 2025-05-09) · <https://www.almg.gov.br/legislacao-mineira/LCP/165/2021/>
+LC 165/2021 · 2 versions, from 2021-09-18 (latest in force: 2025-05-09) · <https://www.almg.gov.br/legislacao-mineira/LCP/165/2021/>
 
 | Provision | File | Changes | Last changed |
 | --- | --- | ---: | --- |

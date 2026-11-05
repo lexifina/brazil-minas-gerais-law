@@ -1,6 +1,6 @@
 # Lei Complementar nº 172, de 2023
 
-LC 172/2023 · 1 versions, from 2025-10-21 (latest in force: 2025-10-21) · <https://www.almg.gov.br/legislacao-mineira/LCP/172/2023/>
+LC 172/2023 · 2 versions, from 2023-12-28 (latest in force: 2025-10-21) · <https://www.almg.gov.br/legislacao-mineira/LCP/172/2023/>
 
 | Provision | File | Changes | Last changed |
 | --- | --- | ---: | --- |
