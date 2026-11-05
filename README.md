@@ -16,10 +16,11 @@ The law of the State of Minas Gerais, Brazil, in Portuguese: one file per articl
 | `lcp-2023-0172/` | LC 172/2023 | 2 |
 | `lcp-2025-0180/` | LC 180/2025 | 2 |
 | Other `lcp-<year>-<number>/` folders | Other complementary laws retained in the record | 1 each |
+| `lei-<year>-<number>/`, `ldl-<year>-<number>/`, `del-<year>-<number>/`, `dec-<year>-<number>/` | Leis, Leis Delegadas, Decretos-Leis and Decretos from the ALMG records, being added in batches (records listing a total revocation left out) | 1 each |
 
 The record contains 175 acts and 184 versions. LC 171/2023 also includes the wordings effective on 2023-12-28 and 2024-06-15, established by LC 172/2023 and LC 175/2024. Textual annexes are retained.
 
-For other acts, an unaltered ALMG record is given as enacted; an altered record generally begins with its oldest available consolidated text. Ordinary laws, decrees and constitutional amendments as separate acts are not included.
+For other acts, an unaltered ALMG record is given as enacted; an altered record generally begins with its oldest available consolidated text. Ordinary laws, delegated laws, decree-laws and decrees are being added in batches by the same rule; constitutional amendments as separate acts are not included.
 
 ## Source
 
