@@ -11,6 +11,7 @@ This file is written by the build on 2026-11-05, the day the source data was ret
 | Assembleia Legislativa do Estado de Minas Gerais (ALMG), Dados Abertos: the record of each norma (texto and textoConsolidado) | <https://dadosabertos.almg.gov.br> | 2026-10-30 | Texts: Assembleia Legislativa do Estado de Minas Gerais (ALMG), Legislação Mineira, dadosabertos.almg.gov.br. Lei 9.610/1998 art. 8 IV: the texts of laws and other official acts are not protected by copyright. Non-official text: only the Diário Oficial is authoritative. |
 | Assembleia Legislativa do Estado de Minas Gerais (ALMG), Dados Abertos: the record of each norma (texto and textoConsolidado) | <https://dadosabertos.almg.gov.br> | 2026-10-30 | Texts: Assembleia Legislativa do Estado de Minas Gerais (ALMG), Legislação Mineira, dadosabertos.almg.gov.br. Lei 9.610/1998 art. 8 IV: the texts of laws and other official acts are not protected by copyright. Non-official text: only the Diário Oficial is authoritative. |
 | Assembleia Legislativa do Estado de Minas Gerais (ALMG), Dados Abertos: the record of each norma (texto and textoConsolidado) | <https://dadosabertos.almg.gov.br> | 2026-10-30 | Texts: Assembleia Legislativa do Estado de Minas Gerais (ALMG), Legislação Mineira, dadosabertos.almg.gov.br. Lei 9.610/1998 art. 8 IV: the texts of laws and other official acts are not protected by copyright. Non-official text: only the Diário Oficial is authoritative. |
+| Assembleia Legislativa do Estado de Minas Gerais (ALMG), Dados Abertos: the record of each norma (texto and textoConsolidado) | <https://dadosabertos.almg.gov.br> | 2026-11-05 | Texts: Assembleia Legislativa do Estado de Minas Gerais (ALMG), Legislação Mineira, dadosabertos.almg.gov.br. Lei 9.610/1998 art. 8 IV: the texts of laws and other official acts are not protected by copyright. Non-official text: only the Diário Oficial is authoritative. |
 | ALMG official original text and publication record | <https://dadosabertos.almg.gov.br> | 2026-11-05 | Texts: Assembleia Legislativa do Estado de Minas Gerais (ALMG), Legislação Mineira, dadosabertos.almg.gov.br. Lei 9.610/1998 art. 8 IV: the texts of laws and other official acts are not protected by copyright. Non-official text: only the Diário Oficial is authoritative. |
 | ALMG official original text and publication record | <https://dadosabertos.almg.gov.br> | 2026-11-05 | Texts: Assembleia Legislativa do Estado de Minas Gerais (ALMG), Legislação Mineira, dadosabertos.almg.gov.br. Lei 9.610/1998 art. 8 IV: the texts of laws and other official acts are not protected by copyright. Non-official text: only the Diário Oficial is authoritative. |
 
@@ -195,20 +196,28 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | `lcp-2026-0187` | Lei Complementar nº 187, de 2026 | 1 | 2026-01-17 to 2026-01-17 |
 | `lcp-2026-0188` | Lei Complementar nº 188, de 2026 (Dispõe sobre o quadro de pessoal da advocacia-geral do estado de minas gerais e dá outras providências.) | 1 | 2026-07-03 to 2026-07-03 |
 | `lcp-2026-0189` | Lei Complementar nº 189, de 2026 | 1 | 2026-08-05 to 2026-08-05 |
+| `lei-2026-26047` | Lei nº 26047, de 2026 | 1 | 2026-08-11 to 2026-08-11 |
+| `lei-2026-26048` | Lei nº 26048, de 2026 (Declara de utilidade pública a associação beneficente comunidade vale do amanhecer, com sede no município de formoso.) | 1 | 2026-08-11 to 2026-08-11 |
+| `lei-2026-26049` | Lei nº 26049, de 2026 (Declara de utilidade pública a associação de catadores de material reciclável de santos dumont, com sede no município de santos dumont.) | 1 | 2026-08-11 to 2026-08-11 |
+| `lei-2026-26050` | Lei nº 26050, de 2026 (Institui a medalha lô borges.) | 1 | 2026-08-11 to 2026-08-11 |
+| `lei-2026-26051` | Lei nº 26051, de 2026 (Institui a comenda helena antipoff.) | 1 | 2026-08-11 to 2026-08-11 |
+| `lei-2026-26052` | Lei nº 26052, de 2026 (Declara de utilidade pública o laprata esporte clube, com sede no município de lagoa da prata.) | 1 | 2026-08-11 to 2026-08-11 |
+| `lei-2026-26053` | Lei nº 26053, de 2026 (Altera a lei nº 15.979, de 13 de janeiro de 2006, que cria a estação ecológica do cercadinho e dá outras providências.) | 1 | 2026-08-11 to 2026-08-11 |
+| `lei-2026-26054` | Lei nº 26054, de 2026 (Declara de utilidade pública o instituto de pesquisa e intervenção em projetos de gênero – cdp, com sede no município de belo horizonte.) | 1 | 2026-09-02 to 2026-09-02 |
 
-The build made 189 commits:
+The build made 197 commits:
 
 | Commits | Kind |
 | ---: | --- |
-| 175 | first version of an act |
+| 183 | first version of an act |
 | 0 | one law on its in-force day |
 | 0 | changes no amendment note explains, credited to the publisher |
 
 Other counts:
 - 0 commits on the branch `futuro`: laws not yet in force on 2026-11-05.
 - 1 commits dated 1 January 1970: in force before 1970, with the real day in their `In-force` trailer.
-- 174 laws in the record.
-- 287 tags.
+- 182 laws in the record.
+- 303 tags.
 
 ## Dates
 
@@ -220,7 +229,7 @@ When a law gives no date of its own, the default rule applies: Decreto-Lei 4.657
 
 `tools/build.py` turns the corpus into this history in one pass: one commit per law, on the day it took effect. The same corpus always gives the same commit hashes. `tools/check_repo.py` reads every version back from git and compares it with the corpus. `tools/on.py` shows the law as it stood on any date. The corpus format is described in `tools/SCHEMA.md`.
 
-- Corpus: sha256 `2981130009a82591d3ecaa1e74b193ff99be99103dc24e9f9270309acfe0caf7` (4283782 bytes).
+- Corpus: sha256 `6a610ecff0ae50d29a87329f58eed0376a4017a353714122fd639f91726b5214` (4307439 bytes).
 - Builder blob hashes (`git hash-object`): `build.py` `35388bee5aa05369f7da68f5a8fa015ea8d442b8`, `check.py` `5d719354ea4c62d240c93d2cae446307d81d9e81`, `on.py` `aff48cf1b68d50c7ba8f399ca32261871c301824`.
 - Python 3.14.4; git version 2.53.0.
 
@@ -232,6 +241,10 @@ No second build of this corpus has been compared yet.
 
 ## Decisions made by hand
 
+- An act ALMG shows no alteration for is given as enacted (the record's "texto"), credited to the act itself and dated by its publication in the Diário do Executivo (the Constituição by its promulgation, 21 September 1989). An altered act is given only as its text in force (the record's "textoConsolidado"), credited to ALMG as the oldest version available and dated by the latest date among the alterations the record cites (its notes in parentheses and its linked altering acts). The wordings in between are not reconstructed, so no earlier version is given rather than a wrong one.
+- ALMG's editorial notes (whole paragraphs in parentheses, such as "(Inciso com redação dada pelo ...)" or "(Vide Lei nº ...)"), the text it strikes through and its "Data da última atualização" line are left out; "(Vetado)" is kept as text.
+- One file per Art. (articles of an Ato das Disposições Transitórias as adt-*); headings of the Títulos, Capítulos and Seções stand above the first article under them; "000-titulo" holds the title, the ementa and the preamble. Text after the last article (place, date, signatures) stays with the last article.
+- Acts whose record lists a total revocation ("REVOGAÇÃO TOTAL") are left out.
 - An act ALMG shows no alteration for is given as enacted (the record's "texto"), credited to the act itself and dated by its publication in the Diário do Executivo (the Constituição by its promulgation, 21 September 1989). An altered act is given only as its text in force (the record's "textoConsolidado"), credited to ALMG as the oldest version available and dated by the latest date among the alterations the record cites (its notes in parentheses and its linked altering acts). The wordings in between are not reconstructed, so no earlier version is given rather than a wrong one.
 - ALMG's editorial notes (whole paragraphs in parentheses, such as "(Inciso com redação dada pelo ...)" or "(Vide Lei nº ...)"), the text it strikes through and its "Data da última atualização" line are left out; "(Vetado)" is kept as text.
 - One file per Art. (articles of an Ato das Disposições Transitórias as adt-*); headings of the Títulos, Capítulos and Seções stand above the first article under them; "000-titulo" holds the title, the ementa and the preamble. Text after the last article (place, date, signatures) stays with the last article.
@@ -269,6 +282,7 @@ No model wrote, translated or corrected legal text. No model runs at build time.
 The commit messages are written by `build.py` from the source data.
 
 Model use at data-build time:
+- Claude Code (claude-opus-5-5) wrote Lexifina's code and chose the sources. No model output is used as legal text or dates: every word comes from the ALMG records.
 - Claude Code (claude-opus-5-5) wrote Lexifina's code and chose the sources. No model output is used as legal text or dates: every word comes from the ALMG records.
 - Claude Code (claude-opus-5-5) wrote Lexifina's code and chose the sources. No model output is used as legal text or dates: every word comes from the ALMG records.
 - Claude Code (claude-opus-5-5) wrote Lexifina's code and chose the sources. No model output is used as legal text or dates: every word comes from the ALMG records.

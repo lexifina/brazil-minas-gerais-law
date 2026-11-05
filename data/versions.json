@@ -2504,6 +2504,118 @@
      "sha256": "5b6104a0d8e460dde7ca2177634502983db7e4f45c2b019c40421d2ccdfe6a4e"
     }
    ]
+  },
+  {
+   "slug": "lei-2026-26047",
+   "short": "Lei 26047/2026",
+   "title": "Lei nº 26047, de 2026",
+   "url": "https://www.almg.gov.br/legislacao-mineira/LEI/26047/2026/",
+   "versions": [
+    {
+     "from": "2026-08-11",
+     "units": 3,
+     "source_url": "https://dadosabertos.almg.gov.br/api/v2/legislacao/mineira/LEI/26047/2026?formato=json",
+     "sha256": "6149b151562af244c5a0683af423a0945c5b9a32aa1e3043580c30d46ff6d891"
+    }
+   ]
+  },
+  {
+   "slug": "lei-2026-26048",
+   "short": "Lei 26048/2026",
+   "title": "Lei nº 26048, de 2026 (Declara de utilidade pública a associação beneficente comunidade vale do amanhecer, com sede no município de formoso.)",
+   "url": "https://www.almg.gov.br/legislacao-mineira/LEI/26048/2026/",
+   "versions": [
+    {
+     "from": "2026-08-11",
+     "units": 3,
+     "source_url": "https://dadosabertos.almg.gov.br/api/v2/legislacao/mineira/LEI/26048/2026?formato=json",
+     "sha256": "bb79a40385b6e1bb10a2090aad4203380f5fae0636c4353a627de6655927a828"
+    }
+   ]
+  },
+  {
+   "slug": "lei-2026-26049",
+   "short": "Lei 26049/2026",
+   "title": "Lei nº 26049, de 2026 (Declara de utilidade pública a associação de catadores de material reciclável de santos dumont, com sede no município de santos dumont.)",
+   "url": "https://www.almg.gov.br/legislacao-mineira/LEI/26049/2026/",
+   "versions": [
+    {
+     "from": "2026-08-11",
+     "units": 3,
+     "source_url": "https://dadosabertos.almg.gov.br/api/v2/legislacao/mineira/LEI/26049/2026?formato=json",
+     "sha256": "c957a30407c4ba84bafd9c0df202b26e33b974935795e8ef69c032cfd5abe8e9"
+    }
+   ]
+  },
+  {
+   "slug": "lei-2026-26050",
+   "short": "Lei 26050/2026",
+   "title": "Lei nº 26050, de 2026 (Institui a medalha lô borges.)",
+   "url": "https://www.almg.gov.br/legislacao-mineira/LEI/26050/2026/",
+   "versions": [
+    {
+     "from": "2026-08-11",
+     "units": 4,
+     "source_url": "https://dadosabertos.almg.gov.br/api/v2/legislacao/mineira/LEI/26050/2026?formato=json",
+     "sha256": "5a3066369b38b95bbbbb9d9cf3750e26a4a1f19896179957e090cf1528e6b7dc"
+    }
+   ]
+  },
+  {
+   "slug": "lei-2026-26051",
+   "short": "Lei 26051/2026",
+   "title": "Lei nº 26051, de 2026 (Institui a comenda helena antipoff.)",
+   "url": "https://www.almg.gov.br/legislacao-mineira/LEI/26051/2026/",
+   "versions": [
+    {
+     "from": "2026-08-11",
+     "units": 6,
+     "source_url": "https://dadosabertos.almg.gov.br/api/v2/legislacao/mineira/LEI/26051/2026?formato=json",
+     "sha256": "45614421faa8daf7e0640bcb6974a01cf05dc3a690f2df9a84cf9d138cbdcae3"
+    }
+   ]
+  },
+  {
+   "slug": "lei-2026-26052",
+   "short": "Lei 26052/2026",
+   "title": "Lei nº 26052, de 2026 (Declara de utilidade pública o laprata esporte clube, com sede no município de lagoa da prata.)",
+   "url": "https://www.almg.gov.br/legislacao-mineira/LEI/26052/2026/",
+   "versions": [
+    {
+     "from": "2026-08-11",
+     "units": 3,
+     "source_url": "https://dadosabertos.almg.gov.br/api/v2/legislacao/mineira/LEI/26052/2026?formato=json",
+     "sha256": "1e0ca1f375aac1646dadaeb867c64e293780ab4ced522d41b138d7b1ca2f3d3f"
+    }
+   ]
+  },
+  {
+   "slug": "lei-2026-26053",
+   "short": "Lei 26053/2026",
+   "title": "Lei nº 26053, de 2026 (Altera a lei nº 15.979, de 13 de janeiro de 2006, que cria a estação ecológica do cercadinho e dá outras providências.)",
+   "url": "https://www.almg.gov.br/legislacao-mineira/LEI/26053/2026/",
+   "versions": [
+    {
+     "from": "2026-08-11",
+     "units": 3,
+     "source_url": "https://dadosabertos.almg.gov.br/api/v2/legislacao/mineira/LEI/26053/2026?formato=json",
+     "sha256": "14983ba3b997e09fdbbc249683023c0eb7a2bd6e4a3906c6ac960fe0cee83b50"
+    }
+   ]
+  },
+  {
+   "slug": "lei-2026-26054",
+   "short": "Lei 26054/2026",
+   "title": "Lei nº 26054, de 2026 (Declara de utilidade pública o instituto de pesquisa e intervenção em projetos de gênero – cdp, com sede no município de belo horizonte.)",
+   "url": "https://www.almg.gov.br/legislacao-mineira/LEI/26054/2026/",
+   "versions": [
+    {
+     "from": "2026-09-02",
+     "units": 3,
+     "source_url": "https://dadosabertos.almg.gov.br/api/v2/legislacao/mineira/LEI/26054/2026?formato=json",
+     "sha256": "d30e6d0fbf84cf450dec7cf5a418c14a32ca042f3eb25628da4773acb548c156"
+    }
+   ]
   }
  ]
 }
