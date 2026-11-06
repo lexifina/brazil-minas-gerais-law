@@ -1,5 +1,7 @@
 # Minas Gerais: law history in git
 
+Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is the law of Minas Gerais, Brazil, which global-law reads at `brazil/minas-gerais/acts/`.
+
 The law of the State of Minas Gerais, Brazil, in Portuguese: one file per article and one paragraph per line. This record follows the shared design of lexifina/global-law.
 
 ## What this repository holds
