@@ -1,0 +1,9 @@
+# Lei nº 24958, de 2024 (Declara de utilidade pública a corporação musical nossa senhora da conceição de capim branco, com sede no município de capim branco.)
+
+Lei 24958/2024 · 1 versions, from 2024-09-05 (latest in force: 2024-09-05) · <https://www.almg.gov.br/legislacao-mineira/LEI/24958/2024/>
+
+| Provision | File | Changes | Last changed |
+| --- | --- | ---: | --- |
+| Título | [000-titulo.md](000-titulo.md) | 0 |  |
+| Art. 1º | [art-0001.md](art-0001.md) | 0 |  |
+| Art. 2º | [art-0002.md](art-0002.md) | 0 |  |

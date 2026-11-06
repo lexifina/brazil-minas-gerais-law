@@ -1,0 +1,9 @@
+# Lei nº 25652, de 2025 (Declara de utilidade pública a associação civil maria auxiliadora cabral adriano – casa da provisão, com sede no município de guidoval.)
+
+Lei 25652/2025 · 1 versions, from 2025-12-23 (latest in force: 2025-12-23) · <https://www.almg.gov.br/legislacao-mineira/LEI/25652/2025/>
+
+| Provision | File | Changes | Last changed |
+| --- | --- | ---: | --- |
+| Título | [000-titulo.md](000-titulo.md) | 0 |  |
+| Art. 1º | [art-0001.md](art-0001.md) | 0 |  |
+| Art. 2º | [art-0002.md](art-0002.md) | 0 |  |

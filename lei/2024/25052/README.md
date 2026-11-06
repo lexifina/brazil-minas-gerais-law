@@ -1,0 +1,9 @@
+# Lei nº 25052, de 2024 (Declara de utilidade pública a associação dos moradores de quilombo do gaia, com sede no município de são gonçalo do pará.)
+
+Lei 25052/2024 · 1 versions, from 2024-12-13 (latest in force: 2024-12-13) · <https://www.almg.gov.br/legislacao-mineira/LEI/25052/2024/>
+
+| Provision | File | Changes | Last changed |
+| --- | --- | ---: | --- |
+| Título | [000-titulo.md](000-titulo.md) | 0 |  |
+| Art. 1º | [art-0001.md](art-0001.md) | 0 |  |
+| Art. 2º | [art-0002.md](art-0002.md) | 0 |  |
